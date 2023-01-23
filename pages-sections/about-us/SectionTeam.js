@@ -9,7 +9,7 @@ import CardAvatar from "/components/Card/CardAvatar.js";
 import CardBody from "/components/Card/CardBody.js";
 import CardFooter from "/components/Card/CardFooter.js";
 import Button from "/components/CustomButtons/Button.js";
-import makeStyles from '@mui/styles/makeStyles';
+import makeStyles from "@mui/styles/makeStyles";
 
 import teamStyle from "/styles/jss/nextjs-material-kit-pro/pages/aboutUsSections/teamStyle.js";
 
@@ -40,10 +40,10 @@ export default function SectionTeam() {
         <GridItem md={3} sm={3}>
           <Card profile plain>
             <CardAvatar profile plain>
-              <a href="#pablo">
+              <a href='#pablo'>
                 <img
-                  src="/img/faces/marc.jpg"
-                  alt="profile-pic"
+                  src='/img/faces/marc.jpg'
+                  alt='profile-pic'
                   className={classes.img}
                 />
               </a>
@@ -57,14 +57,14 @@ export default function SectionTeam() {
               </p>
             </CardBody>
             <CardFooter className={classes.justifyContent}>
-              <Button href="#pablo" justIcon simple color="twitter">
-                <i className="fab fa-twitter" />
+              <Button href='#pablo' justIcon simple color='twitter'>
+                <i className='fab fa-twitter' />
               </Button>
-              <Button href="#pablo" justIcon simple color="facebook">
-                <i className="fab fa-facebook" />
+              <Button href='#pablo' justIcon simple color='facebook'>
+                <i className='fab fa-facebook' />
               </Button>
-              <Button href="#pablo" justIcon simple color="google">
-                <i className="fab fa-google" />
+              <Button href='#pablo' justIcon simple color='google'>
+                <i className='fab fa-google' />
               </Button>
             </CardFooter>
           </Card>
@@ -72,10 +72,10 @@ export default function SectionTeam() {
         <GridItem md={3} sm={3}>
           <Card profile plain>
             <CardAvatar profile plain>
-              <a href="#pablo">
+              <a href='#pablo'>
                 <img
-                  src="/img/faces/kendall.jpg"
-                  alt="profile-pic"
+                  src='/img/faces/kendall.jpg'
+                  alt='profile-pic'
                   className={classes.img}
                 />
               </a>
@@ -89,14 +89,14 @@ export default function SectionTeam() {
               </p>
             </CardBody>
             <CardFooter className={classes.justifyContent}>
-              <Button href="#pablo" justIcon simple color="twitter">
-                <i className="fab fa-twitter" />
+              <Button href='#pablo' justIcon simple color='twitter'>
+                <i className='fab fa-twitter' />
               </Button>
-              <Button href="#pablo" justIcon simple color="dribbble">
-                <i className="fab fa-dribbble" />
+              <Button href='#pablo' justIcon simple color='dribbble'>
+                <i className='fab fa-dribbble' />
               </Button>
-              <Button href="#pablo" justIcon simple color="linkedin">
-                <i className="fab fa-linkedin-in" />
+              <Button href='#pablo' justIcon simple color='linkedin'>
+                <i className='fab fa-linkedin-in' />
               </Button>
             </CardFooter>
           </Card>
@@ -104,10 +104,10 @@ export default function SectionTeam() {
         <GridItem md={3} sm={3}>
           <Card profile plain>
             <CardAvatar profile plain>
-              <a href="#pablo">
+              <a href='#pablo'>
                 <img
-                  src="/img/faces/christian.jpg"
-                  alt="profile-pic"
+                  src='/img/faces/christian.jpg'
+                  alt='profile-pic'
                   className={classes.img}
                 />
               </a>
@@ -121,11 +121,11 @@ export default function SectionTeam() {
               </p>
             </CardBody>
             <CardFooter className={classes.justifyContent}>
-              <Button href="#pablo" justIcon simple color="facebook">
-                <i className="fab fa-facebook" />
+              <Button href='#pablo' justIcon simple color='facebook'>
+                <i className='fab fa-facebook' />
               </Button>
-              <Button href="#pablo" justIcon simple color="dribbble">
-                <i className="fab fa-dribbble" />
+              <Button href='#pablo' justIcon simple color='dribbble'>
+                <i className='fab fa-dribbble' />
               </Button>
             </CardFooter>
           </Card>
@@ -133,10 +133,10 @@ export default function SectionTeam() {
         <GridItem md={3} sm={3}>
           <Card profile plain>
             <CardAvatar profile plain>
-              <a href="#pablo">
+              <a href='#pablo'>
                 <img
-                  src="/img/faces/avatar.jpg"
-                  alt="profile-pic"
+                  src='/img/faces/avatar.jpg'
+                  alt='profile-pic'
                   className={classes.img}
                 />
               </a>
@@ -150,14 +150,14 @@ export default function SectionTeam() {
               </p>
             </CardBody>
             <CardFooter className={classes.justifyContent}>
-              <Button href="#pablo" justIcon simple color="google">
-                <i className="fab fa-google" />
+              <Button href='#pablo' justIcon simple color='google'>
+                <i className='fab fa-google' />
               </Button>
-              <Button href="#pablo" justIcon simple color="twitter">
-                <i className="fab fa-twitter" />
+              <Button href='#pablo' justIcon simple color='twitter'>
+                <i className='fab fa-twitter' />
               </Button>
-              <Button href="#pablo" justIcon simple color="dribbble">
-                <i className="fab fa-dribbble" />
+              <Button href='#pablo' justIcon simple color='dribbble'>
+                <i className='fab fa-dribbble' />
               </Button>
             </CardFooter>
           </Card>
